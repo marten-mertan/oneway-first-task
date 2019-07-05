@@ -1,0 +1,58 @@
+.footer{
+  width: 75%;
+  margin-left: 25%;
+  .footer-inner{
+    margin-top: 80px;
+    border-top: 1px solid #ababab;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 80px;
+    margin-right: 50px;
+    font-size: 12px;
+    font-family: 'Roboto', serif;
+
+    .row{
+      display: flex;
+      flex-wrap: wrap;
+      div{
+        flex: 1 1 0;
+        padding: 0px 12px;
+        min-width: 200px;
+
+        .title{
+          margin-top: 0;
+          margin-bottom: 5px;
+          font-size: 14px;
+          letter-spacing: 1px;
+          font-weight: 700;
+          color: #000;
+        }
+        p{
+          margin-bottom: 10px;
+        }
+      }
+    }
+    ul{
+      list-style: none;
+      font-size: 12px;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+  .footer{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    .footer-inner{
+      margin-right: 0;
+      margin-left: 0;
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+}
